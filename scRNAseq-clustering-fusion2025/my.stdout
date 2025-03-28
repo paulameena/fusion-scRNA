@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/mnt/pan/SOM_CCCC_JGS25/shultesp/scRNAseq-clustering-fusion2025/diffusion_map.py", line 16, in <module>
+    dm = dmap.DiffusionMap(n_evecs=2)  # 'p' for the probabilistic diffusion map
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DiffusionMap.__init__() missing 1 required positional argument: 'kernel_object'
